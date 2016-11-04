@@ -79,6 +79,6 @@ Object.keys({}).length === 0;
 console.log(Object.getOwnPropertyNames(student));  // [‘name’, ‘age’, 'grade', 'sex']
 ```
 
-### 相关资料：
+### 相关资料
 
 [原码链接](https://github.com/mzjh/web-learning/blob/master/blog/object-properties.js)

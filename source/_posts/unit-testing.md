@@ -167,7 +167,7 @@ Async
 
 ## 怎么用istanbul测试覆盖率
 
-首先先安装下Mocha
+首先先安装下istanbul
 
 ```bash
 npm install istanbul -g
@@ -224,4 +224,3 @@ mocha.run(function(err) {
     });
 });
 ```
-

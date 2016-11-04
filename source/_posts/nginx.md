@@ -20,7 +20,7 @@ sudo ngxin -s reload  #重启nginx
 nginx -t #测试nginx配置文件是否有效
 ```
 
-#### 此处有坑.
+### 此处有坑.
 如果遇到这个错误： nginx: [emerg] bind() to 0.0 .0 .0: 80 failed(48: Address already in use)
 可以使用 lsof -i :80查看使用该端口的进程然后用kill 端口号杀掉该进程。
 
@@ -198,7 +198,7 @@ openssl req -new -key my-key.pem -out cert.csr
 openssl req -new -x509 -key my-key.pem -out my-pub-key.pem -days 1095
 ```
 
-## 参考资料:
+## 参考资料
 [linode](https://www.linode.com/docs/websites/nginx/how-to-configure-nginx)
 [nginx核心模块](http://nginx.org/en/docs/http/ngx_http_core_module.html)
 
