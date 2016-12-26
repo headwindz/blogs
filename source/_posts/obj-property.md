@@ -35,7 +35,7 @@ Object.prototype.x = 'inherited';
 
 ```
 
-上面的代码创建了一个对象实例*student*。*student*拥有如下自身自身属性：
+上面的代码创建了一个对象实例*student*。*student*拥有如下自身属性：
 
 1. *name*: 可枚举
 2. *age*: 不可枚举
