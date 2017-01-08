@@ -172,4 +172,22 @@ console.dir(querys(url));
 ```javascript
 /\.(\w+)$/
 ```
+
+## 构造器函数支持非new调用
+```javascript
+'use strict';
+
+function Person(name, age) {
+    if(!(this instanceof Person)) {
+        return new Person(name, age);
+    }
+
+    this.name = name;
+    this.age = age;
+}
+
+console.log(new Person('mike', 20));
+console.log(Person('mike', 20));
+
+```
 (持续更新中...)
