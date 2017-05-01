@@ -134,7 +134,7 @@ server {
     listen 80 default_server;
     listen [::]:80 default_server;
 
-    server_name mzjh.github.io;
+    server_name n0rush.github.io;
     return 301 https://$server_name$request_uri;
 }
 
@@ -150,7 +150,7 @@ server {
     # Add index.php to the list if you are using PHP
     index index.html index.htm index.nginx-debian.html;
 
-    server_name mzjh.github.io;
+    server_name n0rush.github.io;
 
     # location ~ uri路径正则：区分大小写
     location ~ ^/site/(r|res)/(.+)$ {
@@ -201,4 +201,3 @@ openssl req -new -x509 -key my-key.pem -out my-pub-key.pem -days 1095
 ## 参考资料
 [linode](https://www.linode.com/docs/websites/nginx/how-to-configure-nginx)
 [nginx核心模块](http://nginx.org/en/docs/http/ngx_http_core_module.html)
-

@@ -232,7 +232,3 @@ console.log(typeof StudentES6); //'function'
 console.log(xiaomingtongxueES6.__proto__ === StudentES6.prototype); //true
 console.log(PersonES6.prototype.isPrototypeOf(xiaomingtongxueES6)); //true
 ```
-
-## 相关资料
-
-[原码链接](https://github.com/mzjh/web-learning/blob/master/blog/prototype.js)

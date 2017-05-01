@@ -93,8 +93,8 @@ RSA是一种不对称加密算法。你会拥有2个秘钥：一个公钥(public
 
 常见RSA使用场景：
   - Github/Gitlab SSH
-  - [登录远程服务器 SSH](https://mzjh.github.io/2016/09/29/ssh)
-  - [Https证书](https://mzjh.github.io/2016/10/21/nginx)
+  - [登录远程服务器 SSH](https://n0rush.github.io/2016/11/15/ssh/)
+  - [Https证书](https://n0rush.github.io/2016/10/25/nginx/)
 
 
 ## 相关资料

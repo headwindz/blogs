@@ -89,7 +89,7 @@ deploy:
 hexo deploy
 ```
 
-通过访问 https://${your_github_username}.github.io (例如我的Github账户为mzjh, 所以我的博客地址 https://mzjh.github.io) 即可访问你的博客了
+通过访问 https://${your_github_username}.github.io (例如我的Github账户为n0rush, 所以我的博客地址 https://n0rush.github.io) 即可访问你的博客了
 
 ## 我踩过的那些坑
 

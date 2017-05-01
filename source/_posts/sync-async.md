@@ -255,4 +255,3 @@ autoRunWithThunk(mainCoroutineAuto);
 [nodejs fs](http://nodejs.cn/api/fs)
 [Generator](http://es6.ruanyifeng.com/#docs/generator)
 [TJ大神的co](https://github.com/tj/co)
-[原码链接](https://github.com/mzjh/web-learning/tree/master/blog/sync-async)

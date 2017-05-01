@@ -106,4 +106,4 @@ alias gtv='git tag | sort -V'
 ```
 
 ## 用过都说好！
-[我的配置](https://github.com/mzjh/config/tree/master/zsh)
+[我的配置](https://github.com/n0rush/config/tree/master/zsh)
