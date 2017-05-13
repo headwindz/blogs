@@ -1,7 +1,7 @@
 ---
 title: Mac下最强终端zsh!
 date: 2016-12-26
-tags: [zsh]
+tags: [zsh, tools]
 ---
 
 ## 安装
