@@ -311,10 +311,38 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 347.0,
+		"last_filter": "mark",
 		"selected_items":
 		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"noderun",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"git status",
 				"Git: Status"
@@ -342,10 +370,6 @@
 			[
 				"npm isnt",
 				"Nodejs::NPM::Install"
-			],
-			[
-				"noderun",
-				"Nodejs::Run::Current File"
 			],
 			[
 				"git diff",
@@ -376,10 +400,6 @@
 				"Set Syntax: Git Commit Message"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"npm list",
 				"Nodejs::NPM::List"
 			],
@@ -402,10 +422,6 @@
 			[
 				"install p",
 				"Package Control: Install Package"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"remove pack",
@@ -494,8 +510,13 @@
 	],
 	"file_history":
 	[
-		"/Users/michaelzheng/github/blogs/db.json",
+		"/Users/michaelzheng/github/blogs/source/_posts/obj-property.md",
 		"/Users/michaelzheng/github/blogs/source/_posts/sublime.md",
+		"/Users/michaelzheng/Desktop/hello.js",
+		"/Users/michaelzheng/github/blogs/source/_posts/ssh.md",
+		"/Users/michaelzheng/github/blogs/source/_posts/prototype.md",
+		"/Users/michaelzheng/github/blogs/_config.yml",
+		"/Users/michaelzheng/github/blogs/db.json",
 		"/Users/michaelzheng/netease/be-modules/src/hello",
 		"/Users/michaelzheng/netease/nei/server/hello.js",
 		"/Users/michaelzheng/netease/nei/app.js",
@@ -569,16 +590,12 @@
 		"/Users/michaelzheng/netease/be-modules/bin/test.js",
 		"/Users/michaelzheng/netease/neiclean/be-modules/src/config/online.json",
 		"/Users/michaelzheng/netease/be-modules/src/util/utility.js",
-		"/Users/michaelzheng/github/blogs/_config.yml",
 		"/Users/michaelzheng/github/blogs/source/_posts/unit-testing.md",
 		"/Users/michaelzheng/github/blogs/source/_posts/sync-async.md",
-		"/Users/michaelzheng/github/blogs/source/_posts/ssh.md",
-		"/Users/michaelzheng/github/blogs/source/_posts/obj-property.md",
 		"/Users/michaelzheng/github/blogs/source/_posts/nginx.md",
 		"/Users/michaelzheng/github/blogs/source/_posts/hexo.md",
 		"/Users/michaelzheng/github/blogs/source/_posts/encode-decode.md",
 		"/Users/michaelzheng/github/blogs/source/_posts/beautiful-tricks.md",
-		"/Users/michaelzheng/github/blogs/source/_posts/prototype.md",
 		"/Users/michaelzheng/github/blogs/themes/hexo-theme-next/_config.yml",
 		"/Users/michaelzheng/Desktop/question",
 		"/Users/michaelzheng/netease/be-modules/src/dao/ResourceWatchDao.js",
@@ -620,8 +637,7 @@
 		"/Users/michaelzheng/netease/nei/node_modules/fb-modules/package.json",
 		"/Users/michaelzheng/netease/be-modules/src/dao/ResourceDao.js",
 		"/Users/michaelzheng/netease/be-modules/src/dao/DataTypeDao.js",
-		"/Users/michaelzheng/netease/be-modules/src/service/BisGroupService.js",
-		"/Users/michaelzheng/netease/site/public/src/lib/plug/message.js"
+		"/Users/michaelzheng/netease/be-modules/src/service/BisGroupService.js"
 	],
 	"find":
 	{
@@ -632,6 +648,7 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"/Users/michaelzheng/github/blogs",
 			"/Users/michaelzheng/netease/be-modules/src",
 			"/Users/michaelzheng/netease/be-modules/src/service",
 			"/Users/michaelzheng/netease/nei/public/src",
@@ -758,8 +775,7 @@
 			"/Users/michaelzheng/netease/be-modules/src",
 			"/Users/michaelzheng/netease/nei/public/src",
 			"/Users/michaelzheng/netease/be-modules/src/service",
-			"/Users/michaelzheng/netease/be-modules/src",
-			"/Users/michaelzheng/netease/be-modules"
+			"/Users/michaelzheng/netease/be-modules/src"
 		]
 	},
 	"find_state":
@@ -767,6 +783,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mzjh",
 			"filename",
 			"dirname",
 			"Sidebar",
@@ -893,8 +910,7 @@
 			"http://",
 			"update",
 			"clearCache",
-			"getListInProjects",
-			"getListin"
+			"getListInProjects"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -991,7 +1007,19 @@
 		"selected_items":
 		[
 			[
+				"sublime.md",
+				"source/_posts/sublime.md"
+			],
+			[
+				"ssh.md",
+				"source/_posts/ssh.md"
+			],
+			[
 				"sublime",
+				"source/_posts/sublime.md"
+			],
+			[
+				"subl",
 				"source/_posts/sublime.md"
 			],
 			[
@@ -1009,10 +1037,6 @@
 			[
 				"package",
 				"blogs/package.json"
-			],
-			[
-				"subl",
-				"blogs/source/_posts/sublime.md"
 			],
 			[
 				"be-modules/onlineread",
@@ -1493,14 +1517,6 @@
 			[
 				"param/datatype",
 				"test/service/param/datatype/test.js"
-			],
-			[
-				"paramdatatypeser",
-				"src/service/ParamDataTypeService.js"
-			],
-			[
-				"datatype/test",
-				"test/service/datatype/test.js"
 			]
 		],
 		"width": 0.0
@@ -1513,7 +1529,7 @@
 		[
 			[
 				"",
-				"~/be-modules.sublime-workspace"
+				"~/netease/be-modules/be-modules.sublime-project"
 			]
 		],
 		"width": 380.0

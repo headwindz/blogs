@@ -70,5 +70,5 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/mzjh/mzjh.github.io.git
+  repo: https://github.com/n0rush/n0rush.github.io.git
   message: website deploy

@@ -1,7 +1,7 @@
 ---
 title: ssh
 date: 2016-11-15 16:41:58
-tags: ssh, backend
+tags: [ssh, backend]
 ---
 
 ## 什么是ssh

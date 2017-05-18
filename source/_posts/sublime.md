@@ -38,3 +38,5 @@ tags: [sublime, tools]
 * All AutoComplete: Extend Sublime autocompletion to find matches in all open files of the current window
 * [A File Icon](https://github.com/ihodev/a-file-icon): This package adds file-specific icons to Sublime Text for improved visual grepping
 * [AutoFileName](https://github.com/BoundInCode/AutoFileName): auto complete file name when importing
+* [Terminal]https://github.com/wbond/sublime_terminal
+    * cmd + shift + t: open terminal in the current folder
