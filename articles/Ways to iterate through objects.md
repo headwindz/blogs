@@ -151,4 +151,4 @@ console.log(Object.getOwnPropertyNames(student)); // [‘name’, ‘age’, 'gr
 
 ## Notice
 
-* If you want to follow the latest news/articles for the series of reading notes, Please [「Watch」](https://github.com/n0ruSh/blogs/)to Subscribe.
+* If you want to follow the latest news/articles for the series of my blogs, Please [「Watch」](https://github.com/n0ruSh/blogs/)to Subscribe.
