@@ -12,7 +12,7 @@ Opening a new tab/window, either by hyperlinks (i.e <a> tag with target attribut
 
 ## How to fix
 
-* [htyperlink types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
+* [hyperlink types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
 
 Add `rel="noopenner"` to outgoing links. E.g.
 
