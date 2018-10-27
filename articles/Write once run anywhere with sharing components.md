@@ -12,7 +12,7 @@ react-native rnweb
 
 A project with the following directory structure will be created:
 
-![Directory](../images/rn-structure.jpg)
+![Directory](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/rn-structure.jpg)
 
 ```js
 // App.js code
@@ -76,14 +76,14 @@ AppRegistry.registerComponent(appName, () => App);
 react-native run-ios
 ```
 
-![Ios](../images/rn-ios.png)
+![Ios](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/rn-ios.png)
 
 * Run Android
 
 ```
 react-native run-android
 ```
-![Android](../images/rn-android.png)
+![Android](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/rn-android.png)
 
 ## Make it work for Web
 
@@ -312,7 +312,7 @@ if (Platform.OS === 'web') {
 ```sh
 npm run web
 ```
-![Web](../images/rn-web.png)
+![Web](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/rn-web.png)
 
 ## Reference
 
