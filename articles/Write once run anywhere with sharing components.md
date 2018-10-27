@@ -243,7 +243,7 @@ module.exports = {
 }
 ```
 
-* Udate **App.js**
+* Update **App.js**
 
 ```js
 // App.js
