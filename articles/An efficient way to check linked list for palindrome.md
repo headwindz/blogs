@@ -2,7 +2,7 @@
 
 > A palindrome is a word, phrase, number or sequence of words that reads the same backwards as forwards.
 
-E.g.  `aba` is a palindrom while `abc` is not.
+E.g.  `aba` is a palindrome while `abc` is not.
 
 ## Q1. how to check whether a string is a palindrome
 
@@ -59,7 +59,7 @@ console.log(isPalindromeRecursive('abccba')); // true
 
 ![linkedlist](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/linkedlist.png)
 
-With singly linked list, only the `head` node of the linked list is available and the only way to visit a specific node is by traversing from `head` with `next` pointer up to the node. The main point for checking palindrome is to find the node in the center. Basically this can be achieved by having two pointers go from `head`, one moves two steps forward and the other one step forward until the faster one reaches the end. Also, we build a previsous link as the slower pointer moves towards the center. E.g.
+With singly linked list, only the `head` node of the linked list is available and the only way to visit a specific node is by traversing from `head` with `next` pointer up to the node. The main point for checking palindrome is to find the node in the center. Basically this can be achieved by having two pointers go from `head`, one moves two steps forward and the other one step forward until the faster one reaches the end. Also, we build a previous link as the slower pointer moves towards the center. E.g.
 
 
 list: A -> B -> C -> null/end
@@ -68,8 +68,8 @@ Step 1.  Both pointers at `A`
 Step 2.  Slower pointer moves to `B`, build previous link (i.e. B.prev = A). Faster pointer moves to `B` then to `C`
 Step 3.  Faster pointer is at then end (C.next == null). 
 Step 4.  Center pointer is at B (i.e. where slow pointer is). `NOTE: where center is depends on the parity of the number of nodes`
-Step 5.  Move slower pointer fordward and center pointer backend, check the equality of the value. If value is not the same, not a palindrome.
-Step 6.  Slow pointer successfully reaches the end => is a palindrom.
+Step 5.  Move slower pointer forward and center pointer backend, check the equality of the value. If value is not the same, not a palindrome.
+Step 6.  Slow pointer successfully reaches the end => is a palindrome.
 
 ```javascript
 class LinkedListNode {
