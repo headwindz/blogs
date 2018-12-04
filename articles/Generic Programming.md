@@ -154,8 +154,6 @@ let lowestSalary = _genericReduce((result, member) => {
 console.log(lowestSalary);
 ```
 
-
-
 ## Resource
 
 [Code Sample](https://codepen.io/n0rush/pen/MzmzEJ)

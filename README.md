@@ -7,3 +7,4 @@ Personal Blog.
 * [DRY principle](https://github.com/n0ruSh/blogs/issues/13)
 * [Write once run anywhere with sharing components](https://github.com/n0ruSh/blogs/issues/14)
 * [Generic Programming](https://github.com/n0ruSh/blogs/issues/15)
+* [An efficient way to check linked list for palindrome](https://github.com/n0ruSh/blogs/issues/16)
