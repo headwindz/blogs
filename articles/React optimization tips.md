@@ -174,7 +174,7 @@ ReactDOM.render(<App/>, document.getElementById('root'))
 ### Silver bullet?
 
 `PureComponent` is basically `Component` with build-in `shouldComponentUpdate` hook. It seems that we should use `PureCompnent` at any cases since it has native rendering optimization?
-Not really. `PureComponent` is using shadow equality for props and state comparison.
+Not really. `PureComponent` is using shallow equality for props and state comparison.
 
 ```javascript
 
