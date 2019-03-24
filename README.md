@@ -9,3 +9,4 @@ Personal Blog.
 * [Generic Programming](https://github.com/n0ruSh/blogs/issues/15)
 * [An efficient way to check linked list for palindrome](https://github.com/n0ruSh/blogs/issues/16)
 * [React optimization tips](https://github.com/n0ruSh/blogs/issues/17)
+* [Typescript introduction(Ⅰ)](https://github.com/n0ruSh/blogs/issues/18)
