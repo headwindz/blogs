@@ -4,7 +4,7 @@
 
 * A [`ref`](https://reactjs.org/docs/refs-and-the-dom.html) is used to find its current value when you need it.
 * [React](https://reactjs.org/docs/uncontrolled-components.html) doesn't recommend this pattern but it's useful when developers only care about the final state rather than the 
-intermediate state of the comopnent. The following is an [example](https://codepen.io/n0rush/pen/RORrRa) of a `Switch` implemented in `uncontrolled` way.
+intermediate state of the component. The following is an [example](https://codepen.io/n0rush/pen/RORrRa) of a `Switch` implemented in `uncontrolled` way.
 
 ```javascript
 class Switch extends React.Component {
