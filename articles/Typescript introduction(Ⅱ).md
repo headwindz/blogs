@@ -59,14 +59,14 @@ interface SquareConfig {
 }
 
 function createSquare(config: SquareConfig): {color: string; area: number} {
-    let newSquare = {color: "white", area: 100};
-    if (config.color) {
-        newSquare.color = config.color;
-    }
-    if (config.width) {
-        newSquare.area = config.width * config.width;
-    }
-    return newSquare;
+  let newSquare = {color: "white", area: 100};
+  if (config.color) {
+    newSquare.color = config.color;
+  }
+  if (config.width) {
+    newSquare.area = config.width * config.width;
+  }
+  return newSquare;
 }
 
 let mySquare = createSquare({color: "black"});
@@ -78,8 +78,8 @@ Readonly properties can be mark with `readonly` modifier. [E.g.](https://www.typ
 
 ```typescript
 interface Person {
-    readonly identityId: number;
-    readonly bloodType: 'A' | 'B';
+  readonly identityId: number;
+  readonly bloodType: 'A' | 'B';
 }
 
 let p1: Person = { identityId: 10000, bloodType: 'A' };
