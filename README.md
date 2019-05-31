@@ -16,4 +16,5 @@
 * [An Utility to group items in order](https://github.com/n0ruSh/blogs/issues/22)
 * [Centering in CSS](https://github.com/n0ruSh/blogs/issues/23)
 * [Notes from airbnb](https://github.com/n0ruSh/blogs/issues/24)
+* [Typescript introduction(ⅠV)](https://github.com/n0ruSh/blogs/issues/25)
 * [Implement setInterval with setTimeout](https://github.com/n0ruSh/blogs/issues/26)
