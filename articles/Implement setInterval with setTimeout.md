@@ -23,7 +23,7 @@ To delay the execution of `fn`, we could simply use *setTimeout*. Therefore, we 
 function _setInterval(fn, delay) {
   // wrap the original function, recursively call the wrapper function with setTimeout 
   const wrapper = () => {
-    fn();
+    setTimeout(fn, 0);
     return setTimeout(wrapper, delay)
   }
 
