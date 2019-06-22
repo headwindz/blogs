@@ -18,4 +18,5 @@
 * [Notes from airbnb](https://github.com/n0ruSh/blogs/issues/24)
 * [Typescript introduction(ⅠV)](https://github.com/n0ruSh/blogs/issues/25)
 * [Implement setInterval with setTimeout](https://github.com/n0ruSh/blogs/issues/26)
+* [Function sleep in JavaScript](https://github.com/n0ruSh/blogs/issues/27)
 * [Polishing CSS through building a compound input](https://github.com/n0ruSh/blogs/issues/28)
