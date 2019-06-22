@@ -17,7 +17,7 @@ In the post I will list the steps taken to build a compound input component and 
 }
 ```
 
-![image]('https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/outline.gif')
+![outline](https://user-images.githubusercontent.com/7504237/59962072-0d34eb80-9513-11e9-8e9a-ab701884ee67.gif)
 
 There are two problems with the above solution.
 
@@ -30,7 +30,7 @@ The line is [outline](https://developer.mozilla.org/en-US/docs/Web/CSS/outline).
 </p>
 </details>
 
-* Curerntly there are some spaces between the two inputs while I expect them to sit near each other.
+* Currently there are some spaces between the two inputs while I expect them to sit near each other.
 
 <details><summary><b>Why and How</b></summary>
 <p>
@@ -78,7 +78,7 @@ We then result in the following solution:
 
 ## Round two
 
-![image](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/borders.png)
+![borders](https://user-images.githubusercontent.com/7504237/59962079-28076000-9513-11e9-9d4a-0e2f4f9d7b4a.png)
 
 Now that the two inputs are near each other. However, the right border of the left input and the left border of the right input adds up and it looks inharmonic. Setting a negative `margin-right` to the first input to shift it towards the second input should fix the problem, as now the two borders stack.
 
@@ -111,9 +111,9 @@ Now that the two inputs are near each other. However, the right border of the le
 
 ## Round three
 
-![image](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/border-stack.gif)
+![border stack](https://user-images.githubusercontent.com/7504237/59962086-381f3f80-9513-11e9-8d55-c140829be087.gif)
 
-By setting netgaive `margin-left: -1px` to the first input element, the right-border of first input element is now always missing. Clicking the first input will no longer has a right border highlight effect. The first idea that comes up in mind is to set the [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) to the element that has [focus state](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus). To make it work, we also have to set the `position: relative` to both inputs as `z-index` only works for a positioned box (that is, one with any position other than static) 
+By setting negative `margin-left: -1px` to the first input element, the right-border of first input element is now always missing. Clicking the first input will no longer has a right border highlight effect. The first idea that comes up in mind is to set the [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) to the element that has [focus state](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus). To make it work, we also have to set the `position: relative` to both inputs as `z-index` only works for a positioned box (that is, one with any position other than static) 
 
 [Final Solution](https://codepen.io/n0rush/pen/BgWddO)
 

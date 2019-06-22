@@ -53,11 +53,11 @@ console.log(isPalindromeRecursive('abcda')); // false
 console.log(isPalindromeRecursive('abccba')); // true
 ```
 
-## What is the string is in a singly linked list format ?
+## What if the string is in a singly linked list format ?
 
 > A linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list
 
-![linkedlist](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/linkedlist.png)
+![linkedlist](https://user-images.githubusercontent.com/7504237/59962052-cf37c780-9512-11e9-9b69-49287c8a20d6.png)
 
 With singly linked list, only the `head` node of the linked list is available and the only way to visit a specific node is by traversing from `head` with `next` pointer up to the node. The main point for checking palindrome is to find the node in the center. Basically this can be achieved by having two pointers go from `head`, one moves two steps forward and the other one step forward until the faster one reaches the end. Also, we build a previous link as the slower pointer moves towards the center. E.g.
 
