@@ -12,7 +12,7 @@ react-native rnweb
 
 A project with the following directory structure will be created:
 
-![Directory](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/rn-structure.jpg)
+![Directory](https://user-images.githubusercontent.com/7504237/59961989-f4780600-9511-11e9-8462-a74979e3476b.jpg)
 
 ```js
 // App.js code
@@ -76,14 +76,14 @@ AppRegistry.registerComponent(appName, () => App);
 react-native run-ios
 ```
 
-![Ios](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/rn-ios.png)
+![Ios](https://user-images.githubusercontent.com/7504237/59961992-09ed3000-9512-11e9-8218-8c7baf4a0b7f.png)
 
 * Run Android
 
 ```
 react-native run-android
 ```
-![Android](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/rn-android.png)
+![Android](https://user-images.githubusercontent.com/7504237/59962001-1d989680-9512-11e9-9756-9989b673027f.png)
 
 ## Make it work for Web
 
@@ -109,7 +109,7 @@ Packaging with the above webpack config with the following code
 import {Text} from 'react-native'
 ```
 
-=> actally imports **Text** component from 'react-native-web'.
+=> actually imports **Text** component from 'react-native-web'.
 
 Let's take a look into the [source code of **Text** component implementation](https://github.com/necolas/react-native-web/blob/master/packages/react-native-web/src/exports/Text/index.js) in [react-native-web](https://github.com/necolas/react-native-web). In the **render** function the return is either a **div** or **span** element which works on web platform.
 
@@ -168,7 +168,7 @@ export default applyLayout(applyNativeMethods(Text));
 
 ### Steps Details
 
-* Add **web** folder in paralell with **android** and **ios**
+* Add **web** folder in parellel with **android** and **ios**
 * Add **index.html** under **web** folder
 
 ```html
@@ -312,7 +312,7 @@ if (Platform.OS === 'web') {
 ```sh
 npm run web
 ```
-![Web](https://n0rush-blogs.oss-cn-beijing.aliyuncs.com/rn-web.png)
+![Web](https://user-images.githubusercontent.com/7504237/59962012-44ef6380-9512-11e9-8d44-723569264d8d.png)
 
 ## Reference
 
