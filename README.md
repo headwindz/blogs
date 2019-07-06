@@ -21,3 +21,4 @@
 * [Function sleep in JavaScript](https://github.com/n0ruSh/blogs/blob/master/articles/Function%20sleep%20in%20JavaScript.md)
 * [Polishing CSS through building a compound input](https://github.com/n0ruSh/blogs/blob/master/articles/Polishing%20CSS%20through%20building%20a%20compound%20input.md)
 * [Introduction to ssh](https://github.com/n0ruSh/blogs/blob/master/articles/Introduction%20to%20ssh.md)
+* [How href attribute of the anchor element gets me stuck](https://github.com/n0ruSh/blogs/blob/master/articles/How%20href%20attribute%20of%20the%20anchor%20element%20gets%20me%20stuck.md)
