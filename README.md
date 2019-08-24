@@ -24,3 +24,4 @@
 * [How href attribute of the anchor element gets me stuck](https://github.com/n0ruSh/blogs/blob/master/articles/How%20href%20attribute%20of%20the%20anchor%20element%20gets%20me%20stuck.md)
 * [Transition, transform and animation](https://github.com/n0ruSh/blogs/blob/master/articles/Transition%2C%20transform%20and%20animation.md)
 * [CSS variables](https://github.com/n0ruSh/blogs/blob/master/articles/CSS%20variables.md)
+* [Get the width of an element](https://github.com/n0ruSh/blogs/blob/master/articles/Get%20the%20width%20of%20an%20element.md)
