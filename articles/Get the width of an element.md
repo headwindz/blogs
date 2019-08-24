@@ -15,7 +15,7 @@
 
 * This property will round the value to an integer.
 
-> `getBoundingClientRect` method returns the size of an element and its position relative to the viewport. (link to position fixed with absolute)
+> `getBoundingClientRect` method returns the size of an element and its position relative to the viewport.
 
 * `getBoundingClientRect` only returns the dimensions, but also the position which can be pretty useful. E.g. [Implement position:fixed with position:absolute](https://github.com/n0ruSh/the-art-of-reading/blob/master/articles/Fixed%20with%20absolute.md).
 * This method will return a fractional value.
