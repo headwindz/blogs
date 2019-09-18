@@ -4,7 +4,7 @@
 
 > `clientWidth` is the inner width (ie. the space inside an element including padding but excluding borders and scrollbar)
 
-* `clientWidth` does NOT only works with `inline` elements. It is zero for `inline` elements.
+* `clientWidth` does NOT work with `inline` elements. It is zero for `inline` elements.
 * This property will round the value to an integer.
 
 ## [offsetWidth](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetWidth)
