@@ -20,7 +20,7 @@ function App() {
 React will throw a warning with the code above:
 `Warning: Each child in a list should have a unique "key" prop.`
 
-## What keys to use? (Unique + Stable)
+## What keys to use? 
 
 Keys should be `unique` and `stable`
 
