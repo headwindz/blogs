@@ -28,3 +28,4 @@
 * [Path related APIs](https://github.com/n0ruSh/blogs/blob/master/articles/Path%20related%20APIs.md)
 * [Spread props trap in JSX](https://github.com/n0ruSh/blogs/blob/master/articles/Spread%20props%20trap%20in%20JSX.md)
 * [Understanding react key](https://github.com/n0ruSh/blogs/blob/master/articles/Understanding%20react%20key.md)
+* [All you need to know about line breaks](https://github.com/n0ruSh/blogs/blob/master/articles/All%20you%20need%20to%20know%20about%20line%20breaks.md)
