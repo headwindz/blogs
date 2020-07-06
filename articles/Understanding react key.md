@@ -65,7 +65,7 @@ function App() {
 }
 ```
 
-[array-index-as-key - CodeSandbox](https://codesandbox.io/s/staging-resonance-vy7eq)
+[array-index-as-key demo](https://codesandbox.io/s/staging-resonance-vy7eq)
 
 Ticking `mike` and then clicking the add button will result in the loss of check status of `mike`
 
@@ -103,7 +103,7 @@ export default function App() {
 }
 ```
 
-[stable-key - CodeSandbox](https://codesandbox.io/s/gallant-visvesvaraya-0b3lo)
+[stable-key demo](https://codesandbox.io/s/gallant-visvesvaraya-0b3lo)
 
 ## Use key to unmount component
 
@@ -126,6 +126,8 @@ export default function App() {
   );
 }
 ```
+
+[react-key demo](https://codesandbox.io/s/react-key-yth0y?file=/src/App.js:0-97)
 
 ## Conclusion
 
