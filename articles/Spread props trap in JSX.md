@@ -12,7 +12,6 @@ export default function Text(props) {
 ```
 
 ```jsx
-
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 
