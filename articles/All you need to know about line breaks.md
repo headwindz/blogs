@@ -1,5 +1,3 @@
-# All you need to know about line breaks
-
 ## What’s `downwards arrow with corner leftwards (↵)`
 
 It’s a [unicode code character](http://www.fileformat.info/info/unicode/char/21B5/index.htm) with code point `8629`.
