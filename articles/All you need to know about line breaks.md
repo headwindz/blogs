@@ -65,3 +65,7 @@ The [white-space](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) 
 * nowrap: Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a br tag is encountered.
 * pre: Whitespace is preserved by the browser. Text will only wrap on line breaks. Acts like the pre tag in HTML.
 * pre-wrap: Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks.
+
+## Notice
+
+* If you want to follow the latest news/articles for the series of my blogs, Please [「Watch」](https://github.com/n0ruSh/blogs/)to Subscribe
