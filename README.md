@@ -33,3 +33,4 @@
 * [React Hooks - The Ins and Outs](https://github.com/n0ruSh/blogs/blob/master/articles/React%20Hooks%20-%20The%20Ins%20and%20Outs.md)
 * [Deep dive into URL](https://github.com/n0ruSh/blogs/blob/master/articles/Deep%20dive%20into%20URL.md)
 * [Sticky footer](https://github.com/n0ruSh/blogs/blob/master/articles/Deep%20dive%20into%20URL.md)
+* [Encode URI](https://github.com/n0ruSh/blogs/blob/master/articles/Encode%20URI.md
