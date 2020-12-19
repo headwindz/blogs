@@ -39,10 +39,9 @@ It takes three possible values: Strict, Lax, and None. With `Strict`, the cookie
 ## Requirements for third party cookies to be sent
 
 1. Browser settings should support third party cookies to be set. For Chrome, check the setting through the path: settings -> privacy and security -> Cookies and other site data -> Allow all cookies
-
 2. Server correctly sets the `Same-Site` attirbute in the `Set-Cookie` response header, 
-
-3. Client should explicitly includes the credentials in the request.
+3. Set `Access-Control-Allow-Credentails: true` in the `OPTIONS` prefilight request.
+4. Client should explicitly includes the credentials in the request.
 
 ### Fetch
 
@@ -57,8 +56,6 @@ fetch('https://example.com', {
 ```js
 axios.defaults.withCredentials = true;
 ```
-
-4. Set `Access-Control-Allow-Credentails: true` in the `OPTIONS` prefilight request.
 
 ## Notice
 
