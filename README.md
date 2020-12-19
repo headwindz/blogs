@@ -35,3 +35,4 @@
 * [Sticky footer](https://github.com/n0ruSh/blogs/blob/master/articles/Deep%20dive%20into%20URL.md)
 * [Encode URI](https://github.com/n0ruSh/blogs/blob/master/articles/Encode%20URI.md)
 * [All you need to know about white space in html, css and DOM](https://github.com/n0ruSh/blogs/blob/master/articles/All%20you%20need%20to%20know%20about%20white%20space%20in%20html%2C%20css%20and%20DOM.md)
+* [Why third-party cookies are NOT sent where you think they should](https://github.com/n0ruSh/blogs/blob/master/articles/Why%20third-party%20cookies%20are%20NOT%20sent%20where%20you%20think%20they%20should.md)
