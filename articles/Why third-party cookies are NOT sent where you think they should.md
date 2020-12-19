@@ -16,7 +16,6 @@ It is an OPTIONS request, using three HTTP request headers: Access-Control-Reque
 
 A preflight request is automatically issued by a browser and in normal cases. It appears when request is qualified as "to be preflighted" and omitted for simple requests.
 
-
 ## Cookies attributes
 
 ### httpOnly
@@ -60,7 +59,6 @@ axios.defaults.withCredentials = true;
 ```
 
 4. Set `Access-Control-Allow-Credentails: true` in the `OPTIONS` prefilight request.
-
 
 ## Notice
 
