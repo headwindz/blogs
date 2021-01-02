@@ -31,6 +31,8 @@
 </ul>
 ```
 
+[code sample](https://codesandbox.io/s/point-events-6gp7x?file=/index.html)
+
 ## Notice
 
 * If you want to follow the latest news/articles for the series of my blogs, Please [「Watch」](https://github.com/n0ruSh/blogs/)to Subscribe.
