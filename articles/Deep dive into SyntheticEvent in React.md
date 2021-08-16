@@ -88,10 +88,12 @@ native dom event is registered later as it's called after component is mounted.
 ```bash
 [parent div] native dom event triggered
 ```
-No bubbling up to document as if there is no click event happens on document => synthetic events are NOT triggered
+
+No bubbling up to document as if there is no click event happening on document => synthetic events are NOT triggered
 
 #### stopPropogation on parent's synthetic event (i.e. @2) - Output: 
-```javascript
+
+```bash
 [parent div] native dom event triggered
 [child button] synthetic event triggered
 [parent div] synthetic event triggered
@@ -99,13 +101,14 @@ No bubbling up to document as if there is no click event happens on document => 
 ```
 
 #### stopPropogation on child's synthetic event (i.e. @3) - Output: 
-```javascript
+
+```bash
 [parent div] native dom event triggered
 [child button] synthetic event triggered
 [document] native dom event triggered
 ```
 
-#### stopPropogation on child's synthetic event (i.e. @4) - Output: 
+#### stopPropogation on document's native event (i.e. @4) - Output: 
 
 ```javascript
 [parent div] native dom event triggered
