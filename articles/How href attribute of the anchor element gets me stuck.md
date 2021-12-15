@@ -11,7 +11,7 @@ I build a multi-level menus with the following requirements:
 
 ## What I did
 
-It comes in handy for making each menu item with `<a>`. The only difference between leaf menu items and non-leaf menu items is that leaf menu items should have valid `href` which indicates the redirection destination. Therefore, I build a `MenuItem` component. E.g.
+It comes in handy for making each menu item with `<a>`. The only difference between leaf menu items and non-leaf menu items is that leaf menu items should have valid `href` which indicates the redirection destination. Therefore, I build a `MenuItem` component. E.g.
 
 ```javascript
 
