@@ -116,7 +116,7 @@ N.fn();
 N.str;  // Error, str is not exported
 ```
 
-The above `M` declaration is equivalent to the folowing in compiled code:
+The above `N` declaration is equivalent to the folowing in compiled code:
 
 ```javascript
 var N;
