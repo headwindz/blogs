@@ -2,7 +2,7 @@
 
 > Custom properties (sometimes referred to as CSS variables) are entities defined by CSS authors that contain specific values to be reused throughout a document.
 
-Variables names are prefixed with `--`, like `--example-name`. Variables can be used in other declarations using the `var()` function, which allows you to define multiple fallback values when the given variable is not yet defined. [E.g.](https://codepen.io/n0rush/pen/rERYGg)
+Variables names are prefixed with `--`, like `--example-name`. Variables can be used in other declarations using the `var()` function, which allows you to define multiple fallback values when the given variable is not yet defined. [E.g.](https://codesandbox.io/s/css-variables-ypvdl)
 
 ```html
 <p> hell paragraph </p>
@@ -16,7 +16,7 @@ Variables names are prefixed with `--`, like `--example-name`. Variables can be 
 
 p {
   color: var(--main-color);
-  border: var(--not-present, 1px solid blue); // fallback
+  border: var(--not-present, 1px solid blue);
   padding: 10px;
 }
 
@@ -26,7 +26,7 @@ div {
 }
 ```
 
-# Why Should You Care?
+# Why should you care?
 
 ## Variables are already available in CSS preprocessor like [Sass](https://sass-lang.com/) and [Less](http://lesscss.org/). 
 
