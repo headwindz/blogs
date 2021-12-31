@@ -25,7 +25,7 @@ There are two types of mixed content: `mixed passive/display content` and `mixed
 ## To avoid mixed content
 
 * Always use `https` resources - Loading `https` resources on `http` page is valid while the reverse is not.
-* Use relative protocl urls - requests the resource from whatever protocol the browser is viewing that current page through
+* Use relative protocol urls - requests the resource from whatever protocol the browser is viewing that current page through
 
 ## Notice
 
