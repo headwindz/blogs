@@ -27,7 +27,7 @@
 ```html
 <ul>
   <li><a href="google.com">Google</a></li>
-  <li><a href="google.com" style="pointer-events:none">Goole</a></li>
+  <li><a href="google.com" style="pointer-events:none">Google</a></li>
 </ul>
 ```
 

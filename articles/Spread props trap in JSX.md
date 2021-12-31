@@ -6,7 +6,7 @@ import React from 'react';
 
 export default function Text(props) {
 	const { text, ...restProps } = props;
-	// what do you have in restProps? You have no idea inside component implementation. It is from parent invoker
+	// You have no idea what to expect in restProps as it's passed down from parent
 	return <div style={{ color: 'red'}} {...restProps}> { text } </div>  
 }
 ```
@@ -23,13 +23,16 @@ export default function withHighlight(Comp) {
 
 // what's the color ? style overwritten
 const Comp = withHighlight(Text); 
-ReactDom.render(<Fragment>
-	<Text text='abc'/>
-	<Comp text='abc'/>
-</Fragment>, document.getElementById('root'))
+ReactDom.render(
+  <Fragment>
+	  <Text text='abc'/>
+	  <Comp text='abc'/>
+  </Fragment>,
+  document.getElementById('root')
+)
 ```
 
-> Sol: merge props if necessary  
+> Solution: merge props if necessary  
 
 ```jsx
 // A normal Text Component
@@ -37,7 +40,9 @@ import React from 'react';
 
 export default function Text(props) {
 	const { text, style, ...restProps } = props;
-	return <div style={{ color: 'red', ...(style == null ? {} : style)}} {...restProps}> { text } </div>  
+	return <div style={{ color: 'red', ...(style == null ? {} : style)}} {...restProps}>
+    { text }
+  </div>  
 }
 ```
 
