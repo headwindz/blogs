@@ -42,3 +42,4 @@
 - [All you need to know about pixel](https://github.com/n0ruSh/blogs/blob/master/articles/All%20you%20need%20to%20know%20about%20pixel.md)
 - [CSS position fixed is NOT always relative to viewport](https://github.com/n0ruSh/blogs/blob/master/articles/CSS%20position%20fixed%20is%20NOT%20always%20relative%20to%20viewport.md)
 - [Switch statement](https://github.com/n0ruSh/blogs/blob/master/articles/Switch%20statement.md)
+- [How to format code in browser](https://github.com/n0ruSh/blogs/blob/master/articles/How%20to%20format%20code%20in%20browser.md)
