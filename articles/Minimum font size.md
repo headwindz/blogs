@@ -19,7 +19,7 @@ Settings > Appearance > Fonts > Customize fonts > Minimum font size
 
 ```javascript
 const div = document.createElement('div');
-div.style.fontSize = '3px';=
+div.style.fontSize = '3px';
 div.style.lineHeight = '1';
 div.innerHTML = 'a';
 document.body.appendChild(div);
