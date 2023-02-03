@@ -1,0 +1,25 @@
+## Generic
+
+```ts
+function toLabelValue<T, LabelKey extends keyof T, ValueKey extends keyof T>(
+  labelKey: LabelKey,
+  valueKey: ValueKey,
+  obj: T
+) {
+  return {
+    label: obj[labelKey],
+    value: obj[valueKey],
+  };
+}
+
+interface Lib {
+  id: number;
+  name: string;
+  isPublic: boolean;
+}
+
+const lib = { id: 1, name: "hi", isPublic: true };
+
+// 让 labelValue 类型是 { label: string, value: number }
+const labelValue = toLabelValue("name", "id", lib);
+```
