@@ -1,43 +1,60 @@
-## Change case in Vim
+# My VIM Cheat Sheet
+
+## Movement
+
+- `gg`: the beginning of the file
+- `G`: the end of the file
+- `0`: the beginning of the line
+- `^`: the first non-blank character of the line
+- `$`: the end of the line
+- `w`: next word
+- `b`: previous word
+- `e`: end of word
+
+## Insert -> insert mode
+
+- `I`: insert at the beginning of the line
+- `A`: insert at the end of the line
+- `o`: insert a new line below the current line
+- `O`: insert a new line above the current line
+
+## Actions
+
+- `d`: delete
+- `c`: change
+- `y`: copy
+- `v`: enter visual mode
+
+## Motions
+
+- `i{object}`: inner object(inside)
+- `a{object}`: outer object(around)
+
+## Text objects
+
+- `w`: word
+- `b`: bracket (or `(`, `{`, `[`, `<`)
+- `t`: tag
+- `q`: quote (or `'`, `"`, ```)
+
+## Return to normal mode
+
+- Esc
+- Ctrl + [
+
+## Miscellaneous
+
+- `gd`: go to definition
+- `f<char>`: find character
+
+### Move to other end of marked area Visual mode
+
+Press `o` at visual mode
+
+### Change case in Vim
 
 Select the text then:
 
 - `U` for uppercase
 - `u` for lowercase
 - `~` for toggle case
-
-## Movement
-
-- `0` to go to the beginning of the line
-- `^` to go to the first non-blank character of the line
-- `$` to go to the end of the line
-- `gg` to go to the beginning of the file
-- `G` to go to the end of the file
-
-## Insert
-
-- `I` to insert at the beginning of the line
-- `A` to insert at the end of the line
-- `o` to insert a new line below the current line
-- `O` to insert a new line above the current line
-
-## Text objects
-
-- i{object}: inner object
-- a{object}: outer object
-
-objects:
-
-* w: word
-* b: bracket
-* t: tag
-* ": quote
-
-## Return to normal mode
-
-* Esc
-* Ctrl + [
-
-## Move to other end of marked area Visual mode Visual mode
-
-Press `o` at visual mode 
